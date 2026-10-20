@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- xVideoPlayer launcher mark: neon play triangle over a trim timeline (cyan selection between two brackets) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- scaled into the adaptive-icon safe zone, centered on the mark -->
+    <group
+        android:pivotX="56"
+        android:pivotY="53"
+        android:scaleX="0.74"
+        android:scaleY="0.74"
+        android:translateX="-2"
+        android:translateY="1">
+        <!-- soft halo -->
+        <path
+            android:fillColor="#33FF4FA3"
+            android:pathData="M41,22Q35,19 35,26L35,68Q35,75 41,72L76,52Q82,48 76,44Z" />
+        <!-- play triangle -->
+        <path android:pathData="M44,26Q39,23.5 39,29L39,65Q39,70.5 44,68L73,51Q77,48 73,45Z">
+            <aapt:attr name="android:fillColor">
+                <gradient android:type="linear"
+                    android:startX="39" android:startY="26"
+                    android:endX="76" android:endY="68"
+                    android:startColor="#FFFF5FB0"
+                    android:endColor="#FF9D4DFF" />
+            </aapt:attr>
+        </path>
+        <!-- timeline track -->
+        <path
+            android:fillColor="#40FFFFFF"
+            android:pathData="M33,77.5h44a1.5,1.5 0,0 1,0 3h-44a1.5,1.5 0,0 1,0 -3z" />
+        <!-- selected range -->
+        <path
+            android:fillColor="#FF2EE6FF"
+            android:pathData="M44,77h20v4h-20z" />
+        <!-- start / end brackets -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FF2EE6FF"
+            android:strokeWidth="2.6"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M47,73.5L44,73.5L44,84.5L47,84.5M61,73.5L64,73.5L64,84.5L61,84.5" />
+    </group>
+</vector>

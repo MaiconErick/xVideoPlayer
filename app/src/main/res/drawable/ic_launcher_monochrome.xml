@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed-icon (Android 13+) silhouette of the launcher mark -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- scaled into the adaptive-icon safe zone, centered on the mark -->
+    <group
+        android:pivotX="56"
+        android:pivotY="53"
+        android:scaleX="0.74"
+        android:scaleY="0.74"
+        android:translateX="-2"
+        android:translateY="1">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M44,26Q39,23.5 39,29L39,65Q39,70.5 44,68L73,51Q77,48 73,45Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M44,77h20v4h-20z" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="2.6"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M47,73.5L44,73.5L44,84.5L47,84.5M61,73.5L64,73.5L64,84.5L61,84.5" />
+    </group>
+</vector>
